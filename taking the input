@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class hello {
+    public static void main(String ar[])
+    {
+        Scanner n= new Scanner(System.in);
+        int a =n.nextInt();
+        System.out.println("This is the number you have entered "+a);
+
+        int name = 10;
+//        char x= "just a random name";
+        System.out.println("Hello this is a game "+name );
+    }
+}
