@@ -1,0 +1,13 @@
+import java.util.Scanner;
+public class hello{
+    public static void main(String arg[]){
+        System.out.println("Add Two Numbers By Taking The Input From The User!");
+        System.out.println("Enter Two Number --> ");
+        Scanner a = new Scanner(System.in);
+        int x =a.nextInt();
+        int y= a.nextInt();
+        int z =  x + y;
+        System.out.println("This is The Total of x and y: "+z);
+
+    }
+}
