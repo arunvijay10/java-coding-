@@ -1,0 +1,22 @@
+import java.util.Scanner;
+public class hello
+{
+    public static void main(String ar[])
+    {
+        System.out.println("Hello This is a Function with argument and return");
+        System.out.println("Enter Two number's");
+        Scanner val= new Scanner(System.in);
+        System.out.println("Enter the first Number");
+        int x1 =val.nextInt();
+        System.out.println("Enter the Second Number");
+        int x2 = val.nextInt();
+        int result = func(x1,x2);
+        System.out.println("Result:"+result);
+
+    }
+    static int func(int sum1, int sum2)
+    {
+        int z= sum1 + sum2;
+        return z;
+    }
+}
