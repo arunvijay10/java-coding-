@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class hello {
+    public static void main(String ar[]) {
+        System.out.println("Hello Man");
+        Scanner m = new Scanner(System.in);
+        System.out.println("Enter A  Number");
+        int a = m.nextInt();
+        if (a>1)
+        {
+            System.out.println("Positive");
+
+        } else {
+            System.out.println("Negative");
+        }
+    }
+}
