@@ -1,0 +1,24 @@
+you have to create two files
+
+
+public class test {
+int a;
+int b;
+}
+
+
+
+
+
+
+
+
+public class obj {
+    public static void main(String arg[]){
+        test x1= new test();
+        test x2 =new test();
+        x1.a =45;
+        x2.a=65;
+        System.out.println(x1.a);
+    }
+}
