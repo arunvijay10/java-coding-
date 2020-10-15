@@ -1,0 +1,35 @@
+public class test {
+    int a ,b ,c;
+    void add() {
+
+        c = a+b;
+    }
+        void create ()
+        {
+            System.out.println("This is the value of C:" + c);
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+import java.util.Scanner;
+public class obj{
+    public static void main(String ar[])
+    {
+        test z1= new test();
+        Scanner x1= new Scanner(System.in);
+        System.out.println("Enter Two Number's: ");
+        z1.a= x1.nextInt();
+        z1.b=x1.nextInt();
+        z1.add();
+        z1.create();
+    }
+}
