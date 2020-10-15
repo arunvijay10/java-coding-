@@ -1,0 +1,27 @@
+public class test{
+    int a;
+    int b;
+
+    void create()
+    {
+        System.out.println("This is Value of A:" +a+ " and this is the value of B: "+b);
+    }
+}
+
+
+
+
+
+
+import java.util.Scanner;
+public class obj{
+    public static void main(String ar[])
+    {
+        test z1= new test();
+        Scanner x1= new Scanner(System.in);
+        System.out.println("Enter a Number: ");
+        z1.a= x1.nextInt();
+        z1.b=x1.nextInt();
+        z1.create();
+    }
+}
