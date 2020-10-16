@@ -1,0 +1,47 @@
+public class memory {
+    int a ,b ;
+    void changes()
+    {
+        System.out.println("This is the Value of a: "+a);
+        System.out.println("\nThis is the Value of b: "+b);
+    }
+}
+
+
+
+
+import java.util.Scanner;
+public class obj {
+    public static void main(String arg[])
+    {
+        Scanner ch1= new Scanner(System.in);
+        memory get = new memory();
+        memory get1=new memory();
+        System.out.println("Enter Two Number's ");
+        System.out.println("Enter Value For 1st Number: ");
+        get.a= ch1.nextInt();
+        System.out.println("Enter Value For 2nd Number: ");
+        get.b=ch1.nextInt();
+
+        System.out.println("Enter Value For 1st Number: ");
+        get1.a= ch1.nextInt();
+        System.out.println("Enter Value For 2nd Number: ");
+        get1.b=ch1.nextInt();
+
+        get.changes();
+        get1.changes();
+
+
+
+
+
+    }
+}
+public class memory {
+    int a ,b ;
+    void changes()
+    {
+        System.out.println("This is the Value of a: "+a);
+        System.out.println("\nThis is the Value of b: "+b);
+    }
+}
