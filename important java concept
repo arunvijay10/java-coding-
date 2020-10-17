@@ -1,0 +1,65 @@
+import java.util.Scanner;
+public class class1{
+    public static void main(String arg[]) {
+        int num1, num2;
+        Scanner Store = new Scanner(System.in);
+        System.out.println("Enter First Number: ");
+        num1 = Store.nextInt();
+        System.out.println("Enter Second Number: ");
+        num2 = Store.nextInt();
+
+
+        class2 x1 = new class2();
+        x1.cl();
+    }
+
+
+}
+
+
+import java.util.Scanner;
+public class  class2 {
+    public static void main(String Ar[]) {
+        System.out.println("Hey");
+    }
+        int num1, num2;
+        Scanner nes = new Scanner(System.in);
+
+        void cl ()
+        {
+            System.out.println("Enter 1st number");
+            num1 = nes.nextInt();
+            System.out.println("Enter 2nd number");
+            num2 = nes.nextInt();
+
+            System.out.println("Number1:" + num1 + "Number2:" + num2);
+        }
+    }
+    
+public class class3{
+public static void main(String Arg[])
+{
+    System.out.println("Let's use the other two class");
+    System.out.println("Let's Make a object");
+    class1 c1=new class1();
+    class2 c2=new class2();
+    System.out.println("c1: "+c1);
+    System.out.println("c2: "+c2);
+    c2.cl();
+}
+}
+    
+    
+    output
+    
+Let's use the other two class
+Let's Make a object
+c1: class1@7ba4f24f
+c2: class2@3b9a45b3
+Enter 1st number
+45
+Enter 2nd number
+55
+Number1:45Number2:55
+
+
